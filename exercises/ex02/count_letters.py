@@ -6,9 +6,9 @@ __author__ = "730481947"
 # Begin your solution here...
 letter: str = input("What letter do you want to search for?: ")
 word: str = input("Enter a word: ")
-i = 0 
+i: int = 0 
 while i < len(word):
-    num = 0
+    num: int = 0
     while i < len(word):
         if letter == letter.lower():
             if letter == word[i]:

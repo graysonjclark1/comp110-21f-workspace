@@ -13,7 +13,8 @@ else:
     while i < number_of_beats:
         string: str = ""
         while i < number_of_beats:
-            string = string + repeat_beat + " "
+            if i < number_of_beats:
+                string = string + repeat_beat + " "
             i: int = i + 1 
         print(string)
         i: int = i + 1
