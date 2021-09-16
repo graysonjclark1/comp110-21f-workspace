@@ -11,7 +11,7 @@ if integer % 2 == 0:
     if integer % 7 == 0:
         message = message + "HEELS"
     if integer % 7 == 0 and integer % 2 == 0:
-        message = message + "TARHEELS"
+        message = message + "TAR HEELS"
 else:
     if integer % 7 == 0:
         message = message + "HEELS"
