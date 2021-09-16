@@ -10,6 +10,8 @@ if integer % 2 == 0:
     message = message + "TAR"
     if integer % 7 == 0:
         message = message + "HEELS"
+    if integer % 7 == 0 and integer % 2 == 0:
+        message = message + "TARHEELS"
 else:
     if integer % 7 == 0:
         message = message + "HEELS"
